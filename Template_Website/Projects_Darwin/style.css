@@ -1,0 +1,568 @@
+body{
+    margin: 0;
+    width: 100%;
+}
+
+.landing{
+    position: relative;
+    height: 70rem;
+}
+
+.prbtn{
+    display: none;
+    background-color: #fa7d09;
+    font-size: 16px;
+    border: 2px solid #fa7d09;
+    border-radius: 10px;
+}
+
+
+html{
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+
+h1{
+    font-size: 3rem;
+    padding: 0;
+    margin: 0;
+    font-weight: 300;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+li , a , button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16;
+    color: #fff;
+    text-decoration: none;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    justify-content: space-around;
+}
+
+nav{
+    transform: translate(100px,6px);
+}
+
+
+ul a {
+    background-color: black;
+    font-size: 15px;
+    padding: 10px;
+}
+
+a{
+    background-color: black;
+    font-size: 25px;
+    
+}
+
+.active{
+    color: #fa7d09;
+}
+
+a:hover{
+    color: #fa7d09;
+    text-decoration: none;
+}
+
+.btnxa{
+    padding: 12px 25px;
+    cursor: pointer;
+    border: none;
+    font-size: 10px;
+    background-color: #fa7d09;
+    border-radius: 50px;
+    transform: translate(20px, -2px);
+}
+
+.abt{
+    margin-top: 100px;
+    height: 55rem;
+}
+
+.abtxt{
+    font-size: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    float: left;
+    width: 40%;
+    transform: translate(80px,80px);
+}
+
+.abth2{
+    margin-top: 25px;
+    font-weight: 300;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.abt img{
+    float: right;
+    width: 50%;
+    height: 400px;
+}
+
+.shh1{
+    text-align: center;
+}
+
+.cen{
+    border: 0.1px solid #fa7d09;
+    width: 70px;
+}
+
+.shbtn{
+    margin-top: 20px;
+    border: 2px solid #fa7d09;
+    background-color: #fa7d09;
+    border-radius: 10px;
+    padding: 8px;
+    font-size: 17px;
+}
+
+
+.cards{
+    display: flex;;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+
+.btn-primary{
+    background-color: #fa7d09;
+    border: 2px solid #fa7d09;
+    border-radius: 10px;
+    margin-top: 10px;
+    transition: 0.5s;
+    font-size: 15px;
+}
+
+.btn-primary:hover{
+    background-color: #c56001;
+    border: 2px solid #b35804;
+}
+
+.card-title{
+    font-size: 26px;
+}
+
+.card-text{
+    font-size: 13px;
+}
+
+.card-body{
+    padding-top: 20px;
+    height: 240px;
+}
+
+.card{
+    width: 20%;
+    margin: 10px;
+    border-radius: 10px;
+    height: 430px;
+}
+
+
+.openrp{
+    margin-top: 100px;
+    
+}
+
+.shtxt{
+    padding: 60px;
+    position: relative;
+    height: 40rem;
+}
+
+.shh2{
+    position: absolute;
+    float: left;
+    width: 50%;
+    top: 35%;
+}
+
+.shtxt img{
+    float: right;
+    width: 35%;
+}
+
+.abtxt a{
+    background-color: white;
+}
+
+
+.ghublink{
+    padding: 20px;
+    font-size: 60px;
+}
+
+.newcen{
+    width: 50px;
+    margin: 0 auto;
+    border: 0.1px solid #fa7d09;
+    margin-bottom: 30px;
+}
+
+.disc{
+    display: inline-flex
+}
+
+.card-img-top{
+    height: 170px;
+    margin-bottom: 60px;
+}
+
+
+
+.navh1{
+    color: white;
+    position: relative;
+    left: 0%;
+    font-size: 3rem;
+}
+
+
+ul{
+    background-color: black;
+    transform: translate(5px);
+}
+
+
+@media only screen and (max-width: 1100px){
+
+
+    .landing{
+        height: 70rem;
+    }
+
+
+    .navh1{
+        font-size: 16px;
+    }
+
+    nav{
+        transform: translate(33px, 3px);
+    }
+
+    img{
+        height: 300px;
+    }
+
+    .abtxt{
+        transform: translate(0px);
+    }
+
+    .abt{
+        padding: 0px 60px;
+    }
+
+    .landing{
+        height: 57rem;
+    }
+
+    .abth1{
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .abt img{
+        height: 30rem;
+    }
+
+
+
+
+} 
+
+
+@media only screen and (max-width: 870px){
+    ul, .btnxa{
+        display: none;
+    }
+
+
+    .navh1{
+        font-size: 16px;
+        transform: translate(-33px);
+    }
+
+
+    .prbtn{
+
+        transform: translate(90px,0px);
+    }
+
+    .shbtn{
+        font-size: 17px;
+    }
+
+    .abt img{
+        height: 30rem;
+    }
+
+    .abtxt{
+        transform: translate(0px);
+    }
+
+    .abth1{
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .abth2{
+        font-size: 15px;
+    }
+
+    .landing{
+        height: 57rem;
+    }
+
+    .cards{
+        height: 180rem;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+    }
+
+    .card-img-top{
+        height: 30%;
+    }
+
+    .card{
+        width: 70%;
+        margin: 0px auto;
+        height: 40rem;
+    }
+
+    .prbtn{
+        display: block;
+        transform: translate(160px);
+    }
+
+    .card-body{
+        margin-top: 35px;
+    }
+
+    .shh2{
+        transform: translateY(20px);
+        font-size: 14px;
+    }
+
+    .shtxt img{
+        width: 34%;
+        height: 25rem;
+    }
+
+    .shtxt{
+        height: 30rem;
+    }
+
+} 
+
+
+@media only screen and (max-width: 640px){
+    ul, .btnxa{
+        display: none;
+    }
+
+    .landing{
+        height: 70rem;
+    }
+
+    .abth1{
+        font-size: 16px;
+    }
+
+    .abth2{
+        font-size: 12px;
+    }
+
+    .shbtn{
+        font-size: 12px;
+    }
+
+    .abt {
+        display: flex;
+        flex-flow: column;
+        margin-top: 50px;
+        position: relative;
+    }
+
+    .abtxt{
+        position: absolute;
+        text-align: center;
+        width: 90%;
+        left: 5%;
+    }
+
+    .abt img{
+        position: absolute;
+        top: 35%;
+        width: 50%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+
+    .prbtn{
+        font-size: 14px;
+        display: block;
+        transform: translate(130px,0px);
+    }
+
+    .shh1{
+        font-size: 26px;
+    }
+    .shtxt{
+        padding: 0px 20px;
+    }
+
+    .shh2{
+        transform: translateY(-33px);
+    }
+
+    .card{
+        height: 300px;
+        margin: 40px auto;
+    }
+
+    .cen{
+        margin-bottom: 70px;
+    }
+
+    .card img{
+        margin: 0;
+    }
+
+    .card-body{
+        margin: 0;
+        padding-top: 40px;
+    }
+
+    .cards{
+        display: block;
+        height: 126rem;
+    }
+
+    .shtxt{
+        transform: translateY(-50px);
+        height: 30rem;
+    }
+
+    .shh2{
+        font-size: 13px;
+    }
+
+    .openrp{
+        height: 30rem;
+        padding: 0px 30px;
+    }
+
+    .shtxt img{
+        width: 200px;
+    }
+
+} 
+
+@media only screen and (max-width: 540px){
+    ul, .btnxa{
+        display: none;
+    }
+
+    .landing{
+        height: 70rem;
+    }
+
+
+    .navh1{
+        font-size: 16px;
+        transform: translate(-10px);
+    }
+
+
+    .prbtn{
+        display: block;
+        transform: translate(90px,0px);
+    }
+
+    .shtxt{
+        position: relative;
+        display: flex;
+        flex-flow: column;
+        height: 400px;
+    }
+
+    .shtxt img{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .shh2{
+        position: absolute;
+        left: 50%;
+        top: 60%;
+        transform: translate(-50%);
+        width: 90%;
+    }
+} 
+
+
+@media only screen and (max-width: 450px){
+        
+    .landing{
+        height: 70rem;
+    }
+
+    .shh1{
+        font-size: 20px;
+    }
+
+    .card-title{
+        font-size: 19px;
+    }
+
+    .prbtn{
+        display: block;
+        transform: translate(70px,0px);
+    }
+}
+
+
+@media only screen and (max-width: 400px){
+
+
+    .prbtn{
+        display: block;
+        transform: translate(60px,0px);
+    }
+
+}
+
+
+@media only screen and (max-width: 400px){
+
+    .prbtn{
+        display: block;
+        transform: translate(50px,0px);
+    }
+}
+
+@media only screen and (max-width: 350px){
+
+
+    .prbtn{
+        font-size: 10px;
+        display: block;
+        transform: translate(40px,0px);
+    }
+
+}
